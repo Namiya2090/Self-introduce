@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self introduce</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Montserrat 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- 나눔 고딕 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- 타이핑 효과 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual';</script>
+</head>
+<body>
+    <div id="navTrigger"></div>
+
+    <!-- 첫 페이지 -->
+    <section id="home" class="layout">
+        <!-- 네비게이션 메뉴 -->
+        <nav>
+            <ul id="navList">
+                <li><a class="on" href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav> <!-- 네비게이션 메뉴 -->
+
+        <!-- 첫 페이지 타이틀 -->
+        <div><h1 id="homeTitle">Portfolio by Seungho</h1></div>
+
+        <!-- 화살표 -->
+        <img src="./img/Icon/Double_arrow.svg" alt="Double_arrow">
+    </section> <!-- 첫 페이지 -->
+
+    <!-- About Me -->
+    <section id="about" class="layout page">
+        <!-- 페이지 타이틀 -->
+        <h2 class="pageTitle">About Me</h2>
+
+        <!-- 컨테이너 -->
+        <div>
+            <!-- 프로필 -->
+            <div id="profile">
+                <!-- 프로필 이미지 -->
+                <img src="./img/About Me/Profile_image.png" alt="Profile">
+
+                <!-- 연락처 -->
+                <ul>
+                    <li>Name : 배승호</li>
+                    <li>Phone : 010 - 9443 - 6581</li>
+                    <li>Email : sdi538@naver.com</li>
+                </ul> <!-- 연락처 -->
+            </div> <!-- 프로필 -->
+
+            <!-- 핵심 역량 -->
+            <ul id="competency">
+                <!-- 학력 -->
+                <li class="competencyTitle" tabindex="0">EDUCATION</li>
+                <li class="competencyContent">
+                    <ul>
+                        <li><span>2019.</span><span>광주동신고등학교 졸업</span></li>
+                        <li><span>2024.</span><span>SBS아카데미컴퓨터아트학원</span></li>
+                    </ul>
+                </li> <!-- 학력 -->
+
+                <!-- 자격증 -->
+                <li class="competencyTitle" tabindex="0">CERTIFICATION</li>
+                <li class="competencyContent">
+                    <ul>
+                        <li><span>2020.02.04</span><span>운전면허증</span></li>
+                        <li><span>2025.11.08</span><span>ACP Photoshop</span></li>
+                        <li><span>2025.11.08</span><span>ACP Illustrator</span></li>
+                        <li><span>2025.12.24</span><span>프로그래밍 기능사</span></li>
+                        <li><span>2026.04.10</span><span>웹디자인개발 기능사</span></li>
+                    </ul>
+                </li> <!-- 자격증 -->
+
+                <!-- 사용 프로그램 -->
+                <li class="competencyTitle" tabindex="0">SKILLS</li>
+                <li class="competencyContent">
+                    <ul>
+                        <li>
+                            <p>Development</p>
+                            <ul>
+                                <li><img class="skillIcon" src="./img/About Me/Logo/HTML.png" alt="HTML"></li>
+                                <li><img class="skillIcon" src="./img/About Me/Logo/CSS.png" alt="CSS"></li>
+                                <li><img class="skillIcon" src="./img/About Me/Logo/JavaScript.png" alt="JS"></li>
+                                <li><img class="skillIcon" src="./img/About Me/Logo/jQuery.png" alt="jQuery"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Tools</p>
+                            <ul>
+                                <li><img class="skillIcon" src="./img/About Me/Logo/Visualcode.png" alt="VSCode"></li>
+                                <li><img class="skillIcon" src="./img/About Me/Logo/Photoshop.png" alt="Ps"></li>
+                                <li><img class="skillIcon" src="./img/About Me/Logo/Illustrator.png" alt="Ai"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li> <!-- 사용 프로그램 -->
+            </ul> <!-- 핵심역량 -->
+        </div> <!-- 컨테이너 -->
+    </section> <!-- About Me -->
+
+    <!-- Web Works -->
+    <section id="works" class="layout page">
+        <!-- 페이지 타이틀 -->
+        <h2 class="pageTitle">Web Works</h2>
+
+        <!-- 작업물 목록 -->
+        <ul>
+            <!-- 관공서(병무청) -->
+            <li>
+                <div class="worksContainer">
+                    <!-- 작업 타이틀 및 개요 -->
+                    <div>
+                        <h3 class="worksTitle">01. Government office<br>(PC)</h3>
+                        <ul class="overview">
+                            <li>
+                                <p>기획의도</p>
+                                <p>기존 사이트의 여백 부족으로 인한 답답함과 가독성을 개선</p>
+                            </li>
+                            <li>
+                                <p>사용툴</p>
+                                <ul>
+                                    <li>Photoshop</li>
+                                    <li>Illustrator</li>
+                                    <li>Visual Code</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>폰트</p>
+                                <ul>
+                                    <li>Pretendard</li>
+                                    <li>나눔 스퀘어 네오</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>색상</p>
+                                <ul id="govColor">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div> <!-- 작업 타이틀 및 개요 -->
+
+                    <!-- 이미지 및 바로가기 -->
+                    <div>
+                        <img src="./img/Web_works/Government_office.png" alt="Government">
+                        <a href="https://namiya2090.github.io/Military-Manpower-Administration/" target="_blank" rel="noopener noreferrer">Go to Page</a>
+                    </div>
+                </div>
+            </li> <!-- 관공서(병무청) -->
+
+            <!-- 브랜드 프로모션 -->
+            <li>
+                <div class="worksContainer">
+                    <!-- 작업 타이틀 및 개요 -->
+                    <div>
+                        <h3 class="worksTitle">02. Brand promotion<br>(PC)</h3>
+                        <ul class="overview">
+                            <li>
+                                <p>기획의도</p>
+                                <p>기존 페이지 레이아웃의 어색함 개선과 조니워커 위스키 브랜드 홍보를 위해 제작</p>
+                            </li>
+                            <li>
+                                <p>사용툴</p>
+                                <ul>
+                                    <li>Photoshop</li>
+                                    <li>Illustrator</li>
+                                    <li>Visual Code</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>폰트</p>
+                                <ul>
+                                    <li>CINZEL</li>
+                                    <li>Carmen Sans</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>색상</p>
+                                <ul id="brandColor">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div> <!-- 작업 타이틀 및 개요 -->
+
+                    <!-- 이미지 및 바로가기 -->
+                    <div>
+                        <img src="./img/Web_works/Brand_promotion.png" alt="Brand">
+                        <a href="#brand" target="_blank" rel="noopener noreferrer">Go to Page</a>
+                    </div>
+                </div>
+            </li> <!-- 브랜드 프로모션 -->
+
+            <!-- The Long Dark -->
+            <li>
+                <div class="worksContainer">
+                    <!-- 작업 타이틀 및 개요 -->
+                    <div>
+                        <h3 class="worksTitle">03. The long dark<br>(PC, Mobile)</h3>
+                        <ul class="overview">
+                            <li>
+                                <p>기획의도</p>
+                                <p>거의 텍스트로만 이루어진 정보 전달과 그로 인한 스크롤 늘어남에 따른 불편함을 개선</p>
+                            </li>
+                            <li>
+                                <p>사용툴</p>
+                                <ul>
+                                    <li>Photoshop</li>
+                                    <li>Illustrator</li>
+                                    <li>Visual Code</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>폰트</p>
+                                <ul>
+                                    <li>TLD One Headline Regular</li>
+                                    <li>Oswald</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>색상</p>
+                                <ul id="freeColor">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div> <!-- 작업 타이틀 및 개요 -->
+
+                    <!-- 이미지 및 바로가기 -->
+                    <div>
+                        <img src="./img/Web_works/Free_subject.png" alt="Free_subject">
+                        <a href="https://namiya2090.github.io/The-Long-Dark/" target="_blank" rel="noopener noreferrer">Go to Page</a>
+                    </div>
+                </div>
+            </li> <!-- The Long Dark -->
+        </ul> <!-- 작업물 목록 -->
+    </section> <!-- Web Works -->
+
+    <!-- Design Works -->
+    <section id="dWorks" class="layout page">
+        <!-- 페이지 타이틀 -->
+        <h2 class="pageTitle">Design Works</h2>
+
+        <!-- 포토샵 -->
+        <div class="designContainer">
+            <!-- 타이틀 -->
+            <div>
+                <h3 class="worksTitle">Photoshop</h3>
+                <p>click image</p>
+            </div> <!-- 타이틀 -->
+
+            <!-- 이미지 -->
+            <div id="pImage">
+                <div>
+                    <div>
+                        <ul>
+                            <li>
+                                <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Photomontage.jpg" alt="Photomontage"
+                                    data-src="./img/Design works/Photoshop/Origin/Photomontage.jpg">
+                            </li>
+                            <li>
+                                <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Paint.jpg" alt="Paint"
+                                    data-src="./img/Design works/Photoshop/Origin/Paint.jpg">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Action.jpg" alt="Action"
+                                    data-src="./img/Design works/Photoshop/Origin/Action.jpg">
+                            </li>
+                            <li>
+                                <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Water_Color(Fruits).jpg" alt="Water_Color"
+                                    data-src="./img/Design works/Photoshop/Origin/Water_Color(Fruits).jpg">
+                            </li>
+                        </ul>
+                    </div>
+                    <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Winter_Sale.jpg" alt="Winter_Sale"
+                        data-src="./img/Design works/Photoshop/Origin/Winter_Sale.jpg">
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Water_Color(City).jpg" alt="Water_Color"
+                                data-src="./img/Design works/Photoshop/Origin/Water_Color(City).jpg">
+                        </li>
+                        <li>
+                            <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Sketch.jpg" alt="Sketch"
+                                data-src="./img/Design works/Photoshop/Origin/Sketch.jpg">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Frame_Collage.jpg" alt="Frame_Collage"
+                                data-src="./img/Design works/Photoshop/Origin/Frame_Collage.jpg">
+                        </li>
+                        <li>
+                            <img tabindex="0" src="./img/Design works/Photoshop/Thumbnail/Poster.jpg" alt="Poster"
+                                data-src="./img/Design works/Photoshop/Origin/Poster.jpg">
+                        </li>
+                    </ul>
+                </div>
+            </div> <!-- 이미지 -->
+        </div> <!-- 포토샵 -->
+
+        <!-- 일러스트레이터 -->
+        <div class="designContainer">
+            <!-- 타이틀 -->
+            <div>
+                <h3 class="worksTitle">Illustrator</h3>
+                <p>click image</p>
+            </div> <!-- 타이틀 -->
+
+            <!-- 이미지 -->
+            <div id="iImage">
+                <ul>
+                    <li>
+                        <img tabindex="0" src="./img/Design works/Illustrator/Thumnail/Post_card(Character).jpg" alt="Post_card"
+                            data-src="./img/Design works/Illustrator/Origin/Post_card(Character).jpg">
+                    </li>
+                    <li>
+                        <img tabindex="0" src="./img/Design works/Illustrator/Thumnail/Neon_sign.jpg" alt="Neon_sign"
+                            data-src="./img/Design works/Illustrator/Origin/Neon_sign.jpg">
+                    </li>
+                    <li>
+                        <img tabindex="0" src="./img/Design works/Illustrator/Thumnail/Taj_Mahal.jpg" alt="Taj_Mahal"
+                            data-src="./img/Design works/Illustrator/Origin/Taj_Mahal.jpg">
+                    </li>
+                    <li>
+                        <img tabindex="0" src="./img/Design works/Illustrator/Thumnail/Post_card(New_year).jpg" alt="Post_card"
+                            data-src="./img/Design works/Illustrator/Origin/Post_card(New_year).jpg">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img tabindex="0" src="./img/Design works/Illustrator/Thumnail/Listerine.jpg" alt="Listerine"
+                            data-src="./img/Design works/Illustrator/Origin/Listerine.jpg">
+                    </li>
+                    <li>
+                        <img tabindex="0" src="./img/Design works/Illustrator/Thumnail/Blend.jpg" alt="Blend"
+                            data-src="./img/Design works/Illustrator/Origin/Blend.jpg">
+                    </li>
+                    <li>
+                        <img tabindex="0" src="./img/Design works/Illustrator/Thumnail/Travel.jpg" alt="Travel"
+                            data-src="./img/Design works/Illustrator/Origin/Travel.jpg">
+                    </li>
+                </ul>
+            </div> <!-- 이미지 -->
+        </div> <!-- 일러스트레이터 -->
+
+        <!-- 이미지 오버레이 -->
+        <div id="imageOverlay">
+            <!-- 닫기 버튼 -->
+            <button type="button">
+                <p>Overlay Close</p>
+                <svg viewBox="0 0 25 25" fill="#757575">
+                    <path d="M.4,1.7C0,1.4,0,.7.4.3.8-.1,1.5-.1,1.8.3l10.7,10.7L23.2.3c.4-.4,1-.4,1.5,0,.4.4.4,1,0,1.5h0l-10.7,10.7,10.7,10.7c.4.4.4,1,0,1.5s-1,.4-1.5,0l-10.7-10.7L1.8,24.5c-.4.4-1,.4-1.5,0-.4-.4-.4-1,0-1.5l10.7-10.7L.4,1.7Z"/>
+                </svg>
+            </button> <!-- 닫기 버튼 -->
+            
+            <!-- 이미지 -->
+            <div>
+                <img src="./img/Design works/Photoshop/Origin/Winter_Sale.jpg" alt="Post_card">
+            </div>
+        </div> <!-- 이미지 오버레이 -->
+    </section> <!-- Design Works -->
+
+    <!-- 푸터 -->
+    <footer id="footer">
+        <!-- 컨테이너 -->
+        <div class="layout">
+            <!-- 푸터 타이틀 -->
+            <h2 class="pageTitle">Thank you</h2>
+    
+            <!-- 프로필 -->
+            <div id="fProfile">
+                <!-- 프로필 이미지 -->
+                <img src="./img/About Me/Profile_image.png" alt="Profile">
+    
+                <!-- 연락처 -->
+                <ul>
+                    <li><img src="./img/QR_cord.png" alt="QR"></li>
+                    <li>010 - 9443 - 6581</li>
+                    <li>sdi538@naver.com</li>
+                </ul> <!-- 연락처 -->
+            </div> <!-- 프로필 -->
+        </div> <!-- 컨테이너 -->
+    </footer> <!-- 푸터 -->
+</body>
+</html>
